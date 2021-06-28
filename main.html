@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Quizz</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <label
+            style="font-weight: 600; font-size: 60px; color: aliceblue; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Quizz</label>
+        <div class="sub-div">
+            <h2 class="question">Questions</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="ans" id="ans1" class="answer">
+                    <label for="ans1" id="Option1">Option 1</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans2" class="answer">
+                    <label for="ans2" id="Option2">Option 2</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans3" class="answer">
+                    <label for="ans3" id="Option3">Option 3</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="ans" id="ans4" class="answer">
+                    <label for="ans4" id="Option4">Option 4</label>
+                </li>
+
+            </ul>
+            <button id="submit">Submit</button>
+
+            <div id="result" class="res"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
